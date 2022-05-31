@@ -1,0 +1,16 @@
+{
+  "name": "@colinrotherham/govuk-frontend-esm-sample",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinrotherham/govuk-frontend-esm-sample.git"
+  },
+  "author": "Colin Rotherham <work@colinr.com>",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.15.0 <17.0.0",
+    "npm": ">=8.5.5 <9.0.0"
+  }
+}
