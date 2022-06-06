@@ -7,8 +7,21 @@
     "url": "git+https://github.com/colinrotherham/govuk-frontend-esm-sample.git"
   },
   "author": "Colin Rotherham <work@colinr.com>",
+  "main": "index.mjs",
   "type": "module",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.mjs",
+    "test": "mocha ./test/**/*.mjs"
+  },
+  "dependencies": {
+    "govuk-frontend": "~4.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "jsdom": "^19.0.0",
+    "mocha": "^10.0.0"
+  },
   "engines": {
     "node": ">=16.15.0 <17.0.0",
     "npm": ">=8.5.5 <9.0.0"
