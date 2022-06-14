@@ -15,7 +15,7 @@
     "test": "mocha ./test/**/*.mjs"
   },
   "dependencies": {
-    "govuk-frontend": "github:alphagov/govuk-frontend#872b5c1f"
+    "govuk-frontend": "github:alphagov/govuk-frontend#fcfe291f"
   },
   "devDependencies": {
     "chai": "^4.3.6",
